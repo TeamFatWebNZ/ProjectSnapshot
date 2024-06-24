@@ -32,13 +32,13 @@ If you get stuck, just copy the js code into your favourite LLM and ask it how t
 
 ## Usage
 
-1. Place the `compiler.js` file in the root directory of your project.
+1. Place the `projectsnap.js` file in the root directory of your project.
 
 2. Open a terminal and navigate to your project's root directory.
 
 3. Run the script using the command:
    ```
-   node compiler.js
+   node projectsnap.js
    ```
 
 4. The script will prompt you with two questions:
@@ -47,13 +47,13 @@ If you get stuck, just copy the js code into your favourite LLM and ask it how t
 
 5. Answer each question with 'y' for yes or 'n' for no.
 
-6. The script will generate a file named `project_transcript.txt` in the same directory, containing the requested information.
+6. The script will generate a file named `project_snapshot_transcript.txt` in the same directory, containing the requested information.
 
 ## Default Exclusions
 
 The script automatically excludes the following files and directories:
 
-- `compiler.js` (the script itself)
+- `projectsnap.js` (the script itself)
 - `node_modules`
 - `package.json`
 - `package-lock.json`
